@@ -73,14 +73,23 @@
                                         <div class="form-field">
                                             <label for="name" class="title">Имя</label>
                                             <input type="text" name="name" id="name" class="area"/>
+                                            <svg class="svg-modal">
+                                                <use href="/img/icons.svg#namemodal"></use>
+                                            </svg>
                                         </div>
                                         <div class="form-field">
                                             <label for="tel" class="title">Телефон</label>
                                             <input type="tel" name="tel" id="tel" class="area"/>
+                                            <svg class="svg-modal">
+                                                <use href="/img/icons.svg#tel-modal"></use>
+                                            </svg>
                                         </div>
                                         <div class="form-field">
                                             <label for="email" class="title">Почта</label>
                                             <input type="email" name="email" id="email" class="area"/>
+                                            <svg class="svg-modal">
+                                                <use href="/img/icons.svg#email-modal"></use>
+                                            </svg>
                                         </div>
     
                                         <div class="form-field">
@@ -440,9 +449,10 @@
                         <p class="sub-text">Подпишитесь на рассылку</p>
                         <label for="email-footer"></label>
                         <input type="email" name="email" id="email-footer" placeholder="E-mail" class="footer-email">
-                        <button class="subscribe">Подписаться
+                        <button class="subscribe">
+                            <span class="sub-txt">Подписаться</span>
                             <svg class="sub-svg">
-                                <use href="./img/icons.svg#telegram"></use>
+                                <use href="./img/icons.svg#telegram" class="svg-foter"></use>
                             </svg>
                         </button>
                     </li>

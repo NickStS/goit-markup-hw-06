@@ -349,6 +349,15 @@ ul {
     border-radius: 4px;
 }
 
+.svg-modal {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    transform: translateY(150%);
+    fill: var(--primary-text-color);
+}
+
 textarea {
     resize: none;
     height: 120px;
@@ -782,6 +791,59 @@ img {
     fill: var(--title-text-color);
 }
 
+.sub-text {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.footer-email {
+    box-sizing: border-box;
+    width: 358px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 12px;
+    border: 1px solid var(--primary-subscribe-color);
+    filter: drop-shadow(0px 4px 4px) var(--primary-subshadow-color);
+    border-radius: 4px;
+    background-color: var(--pimary-gray-color);
+}
+
+.subscribe {
+    width: 200px;
+    height: 50px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    justify-content: center;
+    color: var(--title-text-color);
+}
+
+.sub-txt {
+    margin-right: 10px;
+}
+
+.sub-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.svg-footer {
+    width: 24px;
+    height: 24px;
+    fill: var(--title-text-color);
+}
+
 
 
 /* page 2 (portfolio) */
@@ -926,51 +988,4 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     margin: 0;
-}
-
-.sub-text {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-}
-
-.footer-email {
-    box-sizing: border-box;
-    width: 358px;
-    height: 50px;
-    margin-top: 20px;
-    margin-right: 12px;
-    border: 1px solid var(--primary-subscribe-color);
-    filter: drop-shadow(0px 4px 4px) var(--primary-subshadow-color);
-    border-radius: 4px;
-    background-color: var(--pimary-gray-color);
-}
-
-.subscribe {
-    width: 200px;
-    height: 50px;
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: none;
-    border-radius: 4px;
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    padding-left: 29px;
-    justify-content: center;
-    color: var(--title-text-color);
-}
-
-.sub-svg {
-    width: 24px;
-    height: 24px;
-    padding-left: 10px;
-    justify-content: center;
-    fill: var(--title-text-color);
 }
