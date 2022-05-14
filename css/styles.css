@@ -362,6 +362,10 @@ ul {
     fill: var(--primary-text-color);
 }
 
+.svg-modal:focus {
+    fill: var(--accent-color);
+}
+
 textarea {
     resize: none;
     height: 120px;
