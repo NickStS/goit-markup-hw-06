@@ -344,13 +344,10 @@ ul {
     width: 448px;
     height: 40px;
     margin-bottom: 10px;
+    padding-left: 42px;
     box-sizing: border-box;
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
-}
-
-.area:focus {
-    border: 1px solid var(--accent-color);
 }
 
 .svg-modal {
@@ -362,7 +359,8 @@ ul {
     fill: var(--primary-text-color);
 }
 
-.svg-modal:focus {
+.area ~ .svg-modal:focus {
+    border: 1px solid var(--accent-color);
     fill: var(--accent-color);
 }
 
@@ -372,6 +370,7 @@ textarea {
     width: 448px;
     height: 120px;
     margin-bottom: 10px;
+    padding-left: 16px;
     box-sizing: border-box;
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
@@ -408,7 +407,7 @@ textarea {
     fill: var(--primary-text-color);
 }
 
-.check-input:checked +.checkbox {
+.check:checked ~ .checkbox {
     background-image: url(/img/icons.svg#check);
     fill: var(--accent-color);
 }
