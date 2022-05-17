@@ -301,6 +301,10 @@ ul {
     fill: var(--primary-black-color);
 }
 
+.button-close:hover {
+    fill: var(--accent-color);
+}
+
 .mpdal-h {
     position: absolute;
     font-family: 'Roboto';
