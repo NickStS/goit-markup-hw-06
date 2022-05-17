@@ -345,7 +345,6 @@ ul {
     height: 40px;
     margin-bottom: 10px;
     padding-left: 42px;
-    box-sizing: border-box;
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
 }
@@ -359,9 +358,8 @@ ul {
     fill: var(--primary-text-color);
 }
 
-.area ~ .svg-modal:focus {
+.area:focus {
     border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
 }
 
 textarea {
@@ -814,10 +812,15 @@ img {
     height: 50px;
     margin-top: 20px;
     margin-right: 12px;
+    padding-left: 16px;
     border: 1px solid var(--primary-subscribe-color);
     filter: drop-shadow(0px 4px 4px) var(--primary-subshadow-color);
     border-radius: 4px;
     background-color: var(--pimary-gray-color);
+}
+
+.footer-email:focus {
+    border: 1px solid var(--accent-color);
 }
 
 .subscribe {
