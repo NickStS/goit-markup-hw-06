@@ -365,7 +365,8 @@ ul {
     fill: var(--primary-text-color);
 }
 
-.area:focus {
+.area:checked ~ .svg-modal {
+    fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 
