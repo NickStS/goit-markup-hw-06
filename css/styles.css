@@ -383,6 +383,11 @@ textarea {
     box-sizing: border-box;
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
+    outline: 0;
+}
+
+textarea:focus {
+    border: 1px solid var(--accent-color);
 }
 
 .check {
@@ -412,8 +417,14 @@ textarea {
     height: 20px;
     margin-left: -1.3em;
     overflow: hidden;
+    background-repeat: no-repeat;
     background-image: url(/img/icons.svg#checkborder);
     fill: var(--primary-text-color);
+}
+
+.check-input:checked + .checkbox {
+    background-image: url(/img/icons.svg#check);
+    fill: var(--accent-color);
 }
 
 .checkbox:focus {
