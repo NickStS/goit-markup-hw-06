@@ -354,12 +354,10 @@ ul {
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
     outline: 0;
-    fill: var(--primary-text-color);
 }
 
 .area:focus {
     border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
 }
 
 .svg-modal {
@@ -368,7 +366,13 @@ ul {
     height: 18px;
     margin-left: 15px;
     transform: translateY(150%);
+    fill: var(--primary-text-color);
 }
+
+.area:not(placeholder-shown) + .svg-modal {
+    fill: var(--accent-color);
+}
+
 
 textarea {
     resize: none;
