@@ -369,7 +369,7 @@ ul {
     fill: var(--primary-text-color);
 }
 
-.area:not(placeholder-shown) + .svg-modal {
+.area:checked + .svg-modal {
     fill: var(--accent-color);
 }
 
