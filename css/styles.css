@@ -223,8 +223,7 @@ ul {
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-    ), url(../img/bg.jpg)
-    ;
+    ), url(../img/bg.jpg);
 }
 
 .solutions {
@@ -354,6 +353,11 @@ ul {
     padding-left: 42px;
     border: 1px solid var(--primary-bordermod-color);
     border-radius: 4px;
+    outline: 0;
+}
+
+.area:focus {
+    border: 1px solid var(--accent-color);
 }
 
 .svg-modal {
@@ -367,7 +371,6 @@ ul {
 
 .area:checked + .svg-modal {
     fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
 }
 
 textarea {
@@ -409,13 +412,12 @@ textarea {
     height: 20px;
     margin-left: -1.3em;
     overflow: hidden;
-    background-image: url(./img/icons.svg#checkborder);
+    background-image: url(/img/icons.svg#checkborder);
     fill: var(--primary-text-color);
 }
 
-.check-input:checked ~ .checkbox {
-    background-image: url(./img/icons.svg#check);
-    fill: var(--accent-color);
+.checkbox:focus {
+    background-image: url(/img/icons.svg#check);
 }
 
 .check-text {
@@ -814,6 +816,10 @@ img {
     color: var(--title-text-color);
 }
 
+.footer-form {
+    justify-content: flex;
+}
+
 .footer-email {
     box-sizing: border-box;
     width: 358px;
@@ -821,10 +827,12 @@ img {
     margin-top: 20px;
     margin-right: 12px;
     padding-left: 16px;
+    color: var(--title-text-color);
     border: 1px solid var(--primary-subscribe-color);
     filter: drop-shadow(0px 4px 4px) var(--primary-subshadow-color);
     border-radius: 4px;
     background-color: var(--pimary-gray-color);
+    outline: 0;
 }
 
 .footer-email:focus {
