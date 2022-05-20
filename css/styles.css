@@ -298,9 +298,9 @@ ul {
 
 .button-close {
     justify-content: center;
-    align-items: center;
     width: 11px;
     height: 11px;
+    padding-top: 9px;
     fill: var(--primary-black-color);
 }
 
@@ -397,6 +397,7 @@ textarea:focus {
     line-height: 1.71;
     letter-spacing: 0.0em;
     color: var(--primary-seventy-color);
+    padding-left: 1.9em;
 }
 
 .check-link {
@@ -405,50 +406,18 @@ textarea:focus {
 
 .check-input {
     position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-  }
-  
-  .check-box {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.checkbox {
     position: absolute;
-    margin-top: 0.2em;
-    margin-left: -1em;
-    width: 0.6em;
-    height: 0.6em;
-    overflow: hidden;
-    border-radius: 0.05em;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    box-shadow: 0 0 0 0.1em #4A90E2;
-  }
-  
-  /* Checked */
-  
-  .check-input:checked + .check-box {
-    background-color: #4A90E2;
-    background-image: url(images/check.svg#check);
-  }
-  
-  /* Focused */
-  
-  .check-input:focus + .check-box {
-    box-shadow:
-      0 0 0 0.1em #4A90E2,
-      0 0 0 0.2em #7ED321;
-  }
-  
-  /* Disabled */
-  
-  .check-input:disabled + .check-box {
-    box-shadow: 0 0 0 0.1em #9B9B9B;
-  }
-  
-  .check-input:checked:disabled + .check-box {
-    background-color: #9B9B9B;
-  }
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    padding-left: -1.9em;
+}
 
 .check-text {
     margin-left: 7px;
