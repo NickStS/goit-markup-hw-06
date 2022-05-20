@@ -366,7 +366,7 @@ ul {
     height: 18px;
     margin-left: 15px;
     transform: translateY(150%);
-    fill: var(--primary-text-color);
+    fill: var(--accent-color);
 }
 
 .area:checked + .svg-modal {
