@@ -406,7 +406,7 @@ textarea:focus {
     width: 16px;
     height: 15px;
     margin-left: -1.5em;
-    background-image: url(./img/icons.svg#bordercheck);
+    background-image: url(./img/icons.svg#checkborder);
     fill: var(--primary-text-color);
 }
 
