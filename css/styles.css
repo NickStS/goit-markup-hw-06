@@ -406,12 +406,12 @@ textarea:focus {
     width: 16px;
     height: 15px;
     margin-left: -1.5em;
-    background-image: url(./img/icons.svg#checkborder);
+    background-image: url(/img/icons.svg#checkborder);
     fill: var(--primary-text-color);
 }
 
 .check-input:checked + .checkbox {
-    background-image: url(./img/icons.svg#check);
+    background-image: url(/img/icons.svg#check);
     fill: var(--accent-color);
 }
 
